@@ -1,0 +1,17 @@
+{
+  "project": "Fashion Management System - Merchandise Allocation Webapp",
+  "agents": [
+    { "id": "Meta-Planner",      "type": "meta",        "modules": ["all"] },
+    { "id": "Supervisor",        "type": "supervisor",  "modules": ["all"] },
+
+    { "id": "Planner-SizeMaster","type": "planner",     "modules": ["Size Master"] },
+    { "id": "Planner-RangePlan", "type": "planner",     "modules": ["Range Planning"] },
+    { "id": "Architect-Allocation","type": "architect", "modules": ["Allocation"] },
+    { "id": "Architect-Ordering","type": "architect",   "modules": ["Ordering"] },
+
+    { "id": "Impl-Frontend",     "type": "implementation", "area": "frontend" },
+    { "id": "Impl-Backend",      "type": "implementation", "area": "backend" },
+    { "id": "Impl-Database",     "type": "implementation", "area": "database" },
+    { "id": "Impl-QA",           "type": "implementation", "area": "qa" }
+  ]
+}
